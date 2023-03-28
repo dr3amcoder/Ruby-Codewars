@@ -1,0 +1,12 @@
+# Problem: Opposite number
+# Instruction: Very simple, given an integer or a floating-point number, find its opposite.
+# 8 Kyu on Codewars under Fundamentals tags.
+
+# Solution:
+def opposite(n)
+  if n.positive?
+    return -n
+  else
+    return n.abs
+  end
+end
